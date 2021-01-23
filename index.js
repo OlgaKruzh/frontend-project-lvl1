@@ -1,4 +1,4 @@
-//import readlineSync from 'readline-sync';
+// import readlineSync from 'readline-sync';
 
 import cli from './src/cli.js';
 
