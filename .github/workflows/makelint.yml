@@ -6,7 +6,5 @@ jobs: make lint
     steps: 
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
-      - run: make install
-	  env:
-	    CI: true
+      - run: make install	  
       - run: make lint
