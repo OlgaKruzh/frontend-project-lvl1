@@ -1,4 +1,5 @@
   name: Run linter
         
-        run: |
+        on: push
+        jobs:
           make lint
