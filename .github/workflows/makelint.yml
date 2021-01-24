@@ -1,0 +1,12 @@
+name: Make lint
+on: push
+jobs: make lint
+  
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - run: make install
+	  env:
+	    CI: true
+      - run: make lint
