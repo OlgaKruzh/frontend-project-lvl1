@@ -1,23 +1,22 @@
 name: Make lint
 
-on: 
+on:
   - push
   - pull_request
 
-jobs: 
+jobs:
   build:
-  
     runs-on: ubuntu-latest
-    
-    steps: 
+
+    steps:
       - uses: actions/checkout@v2
       - name: Use Node.js
-        uses: actions/setup-node@v1        
+        uses: actions/setup-node@v1
         with:
           node-version: 14
-      - name: install      
-        run: npm i         
+      - name: install
+        run: npm i
         env:
-          CI: true		
+          CI: true
       - name: make lint
         run: make lint

@@ -1,5 +1,7 @@
 // import readlineSync from 'readline-sync';
 
-import cli from './src/cli.js';
+import cli from "./src/cli.js";
 
-export default cli;
+import gaming from "./src/gaming.js";
+
+export { cli, gaming };
