@@ -11,7 +11,8 @@ const gaming = () => {
   while (i < 3) {
     const randomInt = Math.round(Math.random() * 100);
     const userInputAnswer = readlineSync.question(
-      `Question: ${randomInt}\nYour answer: ` );
+      `Question: ${randomInt}\nYour answer: `,
+    );
     let correctAnswer = '';
 
     if (randomInt % 2 === 0) {
@@ -23,7 +24,7 @@ const gaming = () => {
     }
 
     if (userInputAnswer !== correctAnswer) {
-return `'${userInputAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.
+      return `'${userInputAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.
 Let's try again, ${userInputName}!`;
     }
     console.log('Correct!');
