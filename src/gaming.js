@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-const gaming = () => {
+export default () => {
   console.log('Welcome to the Brain Games!');
 
   const userInputName = readlineSync.question('May I have your name? ');
@@ -11,8 +11,7 @@ const gaming = () => {
   while (i < 3) {
     const randomInt = Math.round(Math.random() * 100);
     const userInputAnswer = readlineSync.question(
-      `Question: ${randomInt}\nYour answer: `,
-    );
+      `Question: ${randomInt}\nYour answer: `);
     let correctAnswer = '';
 
     if (randomInt % 2 === 0) {
@@ -29,8 +28,7 @@ Let's try again, ${userInputName}!`;
     }
     console.log('Correct!');
 
-    i++;
+    i += 1;
   }
-  console.log(`Congratulations, ${userInputName}!`);
+  return `Congratulations, ${userInputName}!`;
 };
-export default gaming;

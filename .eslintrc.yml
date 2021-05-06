@@ -11,5 +11,5 @@ rules:
   no-console: 0
   import/extensions: 0 # FIXME: remove when rule will be adjusted for new nodejs version
   no-await-in-loop: "error"
-  no-empty": [1, { "allowEmptyCatch": true }]
+  no-empty: [1, { "allowEmptyCatch": true }]
 
