@@ -1,6 +1,7 @@
 import readlineSync from 'readline-sync';
+//import gamingCalc from './gamingCalc';
 
-export default () => {
+const gaming = () => {
   console.log('Welcome to the Brain Games!');
 
   const userInputName = readlineSync.question('May I have your name? ');
@@ -21,7 +22,6 @@ export default () => {
     if (randomInt % 2 !== 0) {
       correctAnswer = 'no';
     }
-
     if (userInputAnswer !== correctAnswer) {
       return `'${userInputAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.
 Let's try again, ${userInputName}!`;
@@ -30,5 +30,7 @@ Let's try again, ${userInputName}!`;
 
     i += 1;
   }
-  return `Congratulations, ${userInputName}!`;
+  console.log (`Congratulations, ${userInputName}!`);
 };
+
+export default gaming;

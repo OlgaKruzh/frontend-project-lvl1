@@ -6,4 +6,6 @@ import gaming from './src/gaming.js';
 
 import calcul from './src/index.js';
 
-export { cli, gaming, calcul };
+export { gaming, calcul };
+
+export default cli;
