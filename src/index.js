@@ -1,12 +1,13 @@
 import readlineSync from 'readline-sync';
 // import randomOperation from './randomOperation.js';
 import createExpression from './createExpression.js';
-
+import gameGoal from './gameGoal.js';
 export default () => {
   console.log('Welcome to the Brain Games!');
   const userInputName = readlineSync.question('May I have your Name? ');
   console.log(`Hello, ${userInputName}`);
-  console.log('What is the result of the expression?');
+  gameGoal();
+  //console.log('What is the result of the expression?');
   let i = 0;
   while (i < 3) {
     const expression = createExpression();
