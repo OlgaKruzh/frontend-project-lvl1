@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-//import gamingCalc from './gamingCalc';
+// import gamingCalc from './gamingCalc';
 
 const gaming = () => {
   console.log('Welcome to the Brain Games!');
@@ -12,7 +12,8 @@ const gaming = () => {
   while (i < 3) {
     const randomInt = Math.round(Math.random() * 100);
     const userInputAnswer = readlineSync.question(
-      `Question: ${randomInt}\nYour answer: `);
+      `Question: ${randomInt}\nYour answer: `,
+    );
     let correctAnswer = '';
 
     if (randomInt % 2 === 0) {
@@ -30,7 +31,7 @@ Let's try again, ${userInputName}!`;
 
     i += 1;
   }
-  console.log (`Congratulations, ${userInputName}!`);
+  console.log(`Congratulations, ${userInputName}!`);
 };
 
 export default gaming;
