@@ -8,6 +8,8 @@ import calcul from './src/index.js';
 
 import gamingDcg from './src/games/brain-dcg/gamingDcg.js';
 
-export { gaming, calcul, gamingDcg };
+import gamingProgression from './src/games/brain-progression/gamingProgression.js';
+
+export { gaming, calcul, gamingDcg, gamingProgression };
 
 export default cli;
