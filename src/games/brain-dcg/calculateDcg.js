@@ -6,6 +6,9 @@ const calculateDcg = (a, b) => {
   }
 
   const iter = (counter, acc) => {
+    if (acc === 0) {
+      return 1;
+    }
     if (counter % acc === 0) {
       return acc;
     }
