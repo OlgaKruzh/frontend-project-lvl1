@@ -1,5 +1,4 @@
 import readlineSync from 'readline-sync';
-import isPrime from './isPrime.js';
 import correctAnswerIsPrime from './correctAnswerIsPrime.js';
 
 export default () => {

@@ -31,7 +31,7 @@ Let's try again, ${userInputName}!`;
 
     i += 1;
   }
-  console.log(`Congratulations, ${userInputName}!`);
+  return `Congratulations, ${userInputName}!`;
 };
 
 export default gaming;
