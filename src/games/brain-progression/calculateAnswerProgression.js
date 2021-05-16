@@ -13,7 +13,14 @@ const calculateAnswerProgression = (progression) => {
       }
     }
   }
-  indexOfString === 0 ? correctAnswer = progression[1] - diffProgression : correctAnswer = progression[progression.indexOf('..') - 1] + diffProgression;
+  // indexOfString === 0 ? correctAnswer = progression[1] - diffProgression
+  // : correctAnswer = progression[progression.indexOf('..') - 1] + diffProgression;
+  if (indexOfString === 0) {
+    correctAnswer = progression[1] - diffProgression;
+  } else {
+    correctAnswer = progression[progression.indexOf('..') - 1] + diffProgression;
+  }
+
   return correctAnswer;
 };
 export default calculateAnswerProgression;
