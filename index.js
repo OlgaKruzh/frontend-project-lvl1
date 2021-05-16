@@ -12,6 +12,8 @@ import gamingProgression from './src/games/brain-progression/gamingProgression.j
 
 import gamingPrime from './src/games/brain-prime/gamingPrime.js';
 
-export { gaming, calcul, gamingDcg, gamingProgression, gamingPrime };
+export {
+  gaming, calcul, gamingDcg, gamingProgression, gamingPrime,
+};
 
 export default cli;
