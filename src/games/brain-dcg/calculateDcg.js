@@ -1,6 +1,8 @@
 const calculateDcg = (a, b) => {
-  if (a % b === 0) {
-    return b;
+  let newA = a;
+  let newB = b;
+  if (newA % newB === 0) {
+    return newB;
   }
 
   const iter = (counter, acc) => {
@@ -8,13 +10,13 @@ const calculateDcg = (a, b) => {
       return acc;
     }
 
-    const c = a % b;
-    a = b;
-    b = c;
+    const c = newA % newB;
+    newA = newB;
+    newB = c;
 
-    return iter(a, b);
+    return iter(newA, newB);
   };
-  return iter(a, b);
+  return iter(newA, newB);
 };
 
 export default calculateDcg;
