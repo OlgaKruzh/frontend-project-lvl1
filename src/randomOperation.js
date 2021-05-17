@@ -1,15 +1,15 @@
 export default () => {
-  const randomNum = Math.round(Math.random() * 100);
-  let operation = '';
+  const randomNum = Math.round(Math.random() * 100)
+  let operation = ''
 
   if (randomNum <= 33) {
-    operation = '+';
+    operation = '+'
   }
   if (randomNum >= 34 && randomNum <= 65) {
-    operation = '-';
+    operation = '-'
   }
   if (randomNum >= 66) {
-    operation = '*';
+    operation = '*'
   }
-  return operation;
-};
+  return operation
+}

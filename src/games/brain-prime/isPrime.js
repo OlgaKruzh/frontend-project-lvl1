@@ -1,16 +1,16 @@
 const isPrime = (num) => {
   if (num <= 1) {
-    return false;
+    return false
   }
   if (num % 2 === 0) {
-    return false;
+    return false
   }
   for (let i = 3; i < num; i += 1) {
     if (num % i === 0) {
-      return false;
+      return false
     }
   }
-  return true;
-};
+  return true
+}
 
-export default isPrime;
+export default isPrime

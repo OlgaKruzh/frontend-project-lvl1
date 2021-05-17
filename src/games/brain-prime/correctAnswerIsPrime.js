@@ -1,8 +1,8 @@
-import isPrime from './isPrime.js';
+import isPrime from './isPrime.js'
 
 export default (number) => {
   if (isPrime(number) === true) {
-    return 'yes';
+    return 'yes'
   }
-  return 'no';
-};
+  return 'no'
+}

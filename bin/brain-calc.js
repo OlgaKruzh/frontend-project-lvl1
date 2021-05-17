@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-import index from '../src/index.js';
-import createExpression from '../src/createExpression.js';
+import index from '../src/index.js'
+import createExpression from '../src/createExpression.js'
 
-export { index, createExpression };
+export { index, createExpression }
 
-index();
+index()
