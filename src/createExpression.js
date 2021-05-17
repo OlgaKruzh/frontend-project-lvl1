@@ -10,12 +10,11 @@ import randomOperation from './randomOperation.js';
 // };
 // export default createExpression;
 
-
 const createExpression = () => {
-     const firstOperand = Math.round(Math.random() * 100);
-     const secondOperand = Math.round(Math.random() * 100);
-     const operation = randomOperation();
-     const expression = firstOperand + ' ' + operation + ' ' + secondOperand;
-     return expression;
-   };
-  export default createExpression;
+  const firstOperand = Math.round(Math.random() * 100);
+  const secondOperand = Math.round(Math.random() * 100);
+  const operation = randomOperation();
+  const expression = `${firstOperand} ${operation} ${secondOperand}`;
+  return expression;
+};
+export default createExpression;

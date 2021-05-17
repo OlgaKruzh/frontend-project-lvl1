@@ -2,8 +2,11 @@ const isPrime = (num) => {
   if (num <= 1) {
     return false;
   }
-  for (let i = 2; i < num; i += 1) {
-    if (num % 1 === 0) {
+  if (num % 2 === 0) {
+    return false;
+  }
+  for (let i = 3; i < num; i += 1) {
+    if (num % i === 0) {
       return false;
     }
   }
