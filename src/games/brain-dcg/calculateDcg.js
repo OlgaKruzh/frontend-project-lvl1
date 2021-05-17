@@ -1,8 +1,11 @@
 const calculateDcg = (a, b) => {
   let newA = a;
   let newB = b;
-  if (newA === 0 || newB === 0) {
+  if (newB === 0) {
     return 1;
+  }
+  if (newA === 0) {
+    return newB;
   }
   if (newA % newB === 0) {
     return newB;
