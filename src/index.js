@@ -1,3 +1,4 @@
+/* eslint no-eval: 0 */
 import readlineSync from 'readline-sync';
 // import randomOperation from './randomOperation.js';
 import createExpression from './createExpression.js';

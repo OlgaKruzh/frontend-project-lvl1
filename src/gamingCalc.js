@@ -1,3 +1,4 @@
+/* eslint no-eval: 0 */
 import createExpression from './createExpression.js';
 
 export default () => {

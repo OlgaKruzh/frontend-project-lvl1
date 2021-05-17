@@ -2,6 +2,6 @@
 
 import gamingPrime from '../src/games/brain-prime/gamingPrime.js';
 
-export { gamingPrime };
+export default gamingPrime;
 
 gamingPrime();

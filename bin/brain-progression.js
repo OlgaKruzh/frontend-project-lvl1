@@ -2,6 +2,6 @@
 
 import gamingProgression from '../src/games/brain-progression/gamingProgression.js';
 
-export { gamingProgression };
+export default gamingProgression;
 
 gamingProgression();
