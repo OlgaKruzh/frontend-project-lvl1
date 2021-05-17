@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import gamingPrime from '../src/games/brain-prime/gamingPrime.js'
+import gamingPrime from '../src/games/brain-prime/gamingPrime.js';
 
-export default gamingPrime
+export default gamingPrime;
 
-gamingPrime()
+gamingPrime();

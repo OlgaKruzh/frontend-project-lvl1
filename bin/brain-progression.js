@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import gamingProgression from '../src/games/brain-progression/gamingProgression.js'
+import gamingProgression from '../src/games/brain-progression/gamingProgression.js';
 
-export default gamingProgression
+export default gamingProgression;
 
-gamingProgression()
+gamingProgression();
