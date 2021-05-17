@@ -11,7 +11,8 @@ export default () => {
   while (i < 3) {
     const progression = createProgression();
     const correctAnswer = calculateAnswerProgression(progression);
-    const userInputAnswer = readlineSync.question(`Question: ${progression}\nYour answer: `);
+    const progressionString = progression.join(' ');
+    const userInputAnswer = readlineSync.question(`Question: ${progressionString}\nYour answer: `);
     const userAnswer = parseInt(userInputAnswer, 10);
     if (userAnswer === correctAnswer) {
       console.log('Correct!');
@@ -23,4 +24,5 @@ export default () => {
     }
   }
   console.log(`Congratulations, ${userInputName}!`);
+  return;
 };
