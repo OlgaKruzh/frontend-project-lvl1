@@ -18,7 +18,7 @@ export default () => {
       i += 1;
     } else {
       console.log(`${userInputAnswer} is wrong answer ;(. Correct answer was '${correctAnswer}'`);
-      console.log(`Let's try again, ${userInputName}`);
+      console.log(`Let's try again, ${userInputName}!`);
       return;
     }
   }
