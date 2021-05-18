@@ -9,3 +9,7 @@ https://asciinema.org/connect/03081579-e0dc-4717-b188-a3b022e47e93
 https://asciinema.org/a/YMI3YNXusPvjmHGQQGBIPrhoM
 https://asciinema.org/a/jZhYJ6HM2cbYKVQTWww2OGTZ6
 https://asciinema.org/a/TxDOorMwDfvm90S5CULQxHwbT
+
+<script id="asciicast-X9PXWpMWTa6AAzN7FcCOx2thk" src="https://asciinema.org/a/X9PXWpMWTa6AAzN7FcCOx2thk.js" async></script>
+
+[![asciicast](https://asciinema.org/a/X9PXWpMWTa6AAzN7FcCOx2thk.svg)](https://asciinema.org/a/X9PXWpMWTa6AAzN7FcCOx2thk)
