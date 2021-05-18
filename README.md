@@ -6,7 +6,7 @@
 ![Make lint](https://github.com/OlgaKruzh/frontend-project-lvl1/workflows/Make%20lint/badge.svg)
 
 **asciinema brain-even**
-[![asciicast](https://asciinema.org/a/414353.svg)](https://asciinema.org/a/414353)
+[![asciicast](https://asciinema.org/a/414046.svg)](https://asciinema.org/a/414046)
 **asciinema brain-calc**
 [![asciicast](https://asciinema.org/a/YMI3YNXusPvjmHGQQGBIPrhoM.svg)](https://asciinema.org/a/YMI3YNXusPvjmHGQQGBIPrhoM)
 **asciinema brain-progression**
