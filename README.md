@@ -2,14 +2,19 @@
 
 [![Actions Status](https://github.com/OlgaKruzh/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/OlgaKruzh/frontend-project-lvl1/actions)
 <a href="https://codeclimate.com/github/OlgaKruzh/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/37c679a94336d27c0ad8/maintainability" /></a>
-![Super-Linter](https://github.com/OlgaKruzh/frontend-project-lvl1/workflows/Super-Linter/badge.svg)
+
 ![Make lint](https://github.com/OlgaKruzh/frontend-project-lvl1/workflows/Make%20lint/badge.svg)
-https://asciinema.org/connect/f4c8d9ca-7707-4246-af9d-bda65f5716b9
-https://asciinema.org/connect/03081579-e0dc-4717-b188-a3b022e47e93
-https://asciinema.org/a/YMI3YNXusPvjmHGQQGBIPrhoM
-https://asciinema.org/a/jZhYJ6HM2cbYKVQTWww2OGTZ6
-https://asciinema.org/a/TxDOorMwDfvm90S5CULQxHwbT
 
-<script id="asciicast-X9PXWpMWTa6AAzN7FcCOx2thk" src="https://asciinema.org/a/X9PXWpMWTa6AAzN7FcCOx2thk.js" async></script>
+**asciinema brain-even**
+[![asciicast](https://asciinema.org/a/414353.svg)](https://asciinema.org/a/414353)
+**asciinema brain-calc**
+[![asciicast](https://asciinema.org/a/YMI3YNXusPvjmHGQQGBIPrhoM.svg)](https://asciinema.org/a/YMI3YNXusPvjmHGQQGBIPrhoM)
+**asciinema brain-progression**
+[![asciicast](https://asciinema.org/a/jZhYJ6HM2cbYKVQTWww2OGTZ6.svg)](https://asciinema.org/a/jZhYJ6HM2cbYKVQTWww2OGTZ6)
+**asciinema brain-prime**
+[![asciicast](https://asciinema.org/a/TxDOorMwDfvm90S5CULQxHwbT.svg)](https://asciinema.org/a/TxDOorMwDfvm90S5CULQxHwbT)
+**asciinema brain-dcg**
+[![asciicast](https://asciinema.org/a/YMI3YNXusPvjmHGQQGBIPrhoM.svg)](https://asciinema.org/a/YMI3YNXusPvjmHGQQGBIPrhoM)
 
-[![asciicast](https://asciinema.org/a/X9PXWpMWTa6AAzN7FcCOx2thk.svg)](https://asciinema.org/a/X9PXWpMWTa6AAzN7FcCOx2thk)
+for asciinema installation: `apt install asciinema`
+for more asciinema information: www.asciinema.org
