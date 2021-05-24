@@ -1,8 +1,5 @@
 #!/usr/bin/env node
 
-import index from '../src/index.js';
-import createExpression from '../src/createExpression.js';
+import { brainCalc } from '../src/games/brainCalc.js';
 
-export { index, createExpression };
-
-index();
+brainCalc();

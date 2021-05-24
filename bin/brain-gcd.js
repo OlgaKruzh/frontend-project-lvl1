@@ -1,6 +1,4 @@
 #!/usr/bin/env node
-import gamingDcg from '../src/games/brain-dcg/gamingDcg.js';
+import { brainGcd } from '../src/games/brainGcd.js';
 
-export default gamingDcg;
-
-gamingDcg();
+brainGcd();
