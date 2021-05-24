@@ -46,4 +46,3 @@ const brainGcd = () => {
 
 const runGame = () => startGame(description, brainGcd);
 export default runGame;
-
