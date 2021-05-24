@@ -9,10 +9,10 @@ const startGame = (description, game) => {
   let i = 0;
   while (i < 3) {
     const gameData = game();
-    //console.log(gameData);
+    // console.log(gameData);
     const [expression, correctAnswer] = gameData;
     const userAnswer = readlineSync.question(`Question: ${expression}\nYour answer: `);
-    //console.log(userAnswer + typeof (userAnswer));
+    // console.log(userAnswer + typeof (userAnswer));
 
     if (userAnswer === correctAnswer) {
       console.log('Correct!');
