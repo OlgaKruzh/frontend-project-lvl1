@@ -32,9 +32,9 @@ const calculateDcg = (a, b) => {
   return iter(newA, newB);
 };
 
-export const description = 'Find the greatest common divisor of given numbers.';
+const description = 'Find the greatest common divisor of given numbers.';
 
-export const brainGcd = () => {
+const brainGcd = () => {
   const firstOperand = randomInt();
   const secondOperand = randomInt();
   const expression = `${firstOperand} ${secondOperand}`;
@@ -44,4 +44,6 @@ export const brainGcd = () => {
   return [expression, correctAnswer];
 };
 
-startGame(description, brainGcd);
+const runGame = () => startGame(description, brainGcd);
+export default runGame;
+

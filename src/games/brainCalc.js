@@ -1,7 +1,7 @@
 import startGame from '../index.js';
 
-export const description = 'What is the result of the expression?';
-export const brainCalc = () => {
+const description = 'What is the result of the expression?';
+const brainCalc = () => {
   const firstOperand = Math.round(Math.random() * 100);
   const secondOperand = Math.round(Math.random() * 100);
   const operations = ['+', '-', '*'];
@@ -23,4 +23,5 @@ export const brainCalc = () => {
   return [expression, correctAnswer];
 };
 
-startGame(description, brainCalc);
+const runGame = () => startGame(description, brainCalc);
+export default runGame;
