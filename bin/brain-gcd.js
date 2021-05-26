@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import brainGcd from '../src/games/brainGcd.js';
+import findGreatestCommonDivisor from '../src/games/findGreatestCommonDivisor.js';
 
-brainGcd();
+findGreatestCommonDivisor();

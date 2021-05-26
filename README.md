@@ -9,12 +9,11 @@
 ```sh
 $ make install
 $ make link 
-$ make brain-games # run brain-games
-$ make brain-even # run brain-even
-$ make brain-calc # run brain-calc
-$ make brain-gcd # run brain-gcd
-$ make brain-progression # run brain-progression
-$ make brain-prime # run brain-prime
+$ brain-even # run brain-even
+$ brain-calc # run brain-calc
+$ brain-gcd # run brain-gcd
+$ brain-progression # run brain-progression
+$ brain-prime # run brain-prime
 
 ```
 
