@@ -25,7 +25,8 @@ publish:
 lint:
 	npx eslint .
 
-test:
-	npm test
+link:
+	npm link
+	
 
 .PHONY: test
