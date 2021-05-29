@@ -10,9 +10,11 @@ const gcd = (a, b) => {
   return gcd(b, a % b);
 };
 
+const min = 0;
+const max = 700;
 const calculateGcd = () => {
-  const firstOperand = createRandomNumber(0, 700);
-  const secondOperand = createRandomNumber(0, 700);
+  const firstOperand = createRandomNumber(min, max);
+  const secondOperand = createRandomNumber(min, max);
   const expression = `${firstOperand} ${secondOperand}`;
   const correctAnswer = gcd(firstOperand, secondOperand).toString();
 

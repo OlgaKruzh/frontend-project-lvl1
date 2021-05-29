@@ -4,7 +4,7 @@
 <a href="https://codeclimate.com/github/OlgaKruzh/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/37c679a94336d27c0ad8/maintainability" /></a>
 ![Make lint](https://github.com/OlgaKruzh/frontend-project-lvl1/workflows/Make%20lint/badge.svg)
 
-## Установка
+## To install:
 
 ```sh
 $ make install
