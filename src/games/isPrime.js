@@ -36,7 +36,7 @@ const createReponse = (number) => {
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-const brainPrime = () => {
+const calculateIsPrime = () => {
   const number = createRandomNumber(0, 500);
   const correctAnswer = createReponse(number);
   const expression = String(number);
@@ -44,5 +44,5 @@ const brainPrime = () => {
   return [expression, correctAnswer];
 };
 
-const runGame = () => startGame(description, brainPrime);
+const runGame = () => startGame(description, calculateIsPrime);
 export default runGame;
