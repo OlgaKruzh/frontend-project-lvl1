@@ -1,18 +1,15 @@
 import startGame from '../index.js';
 import createRandomNumber from '../utils.js';
 
-
-const isPrime = num => {
-
+const isPrime = (num) => {
   if (num <= 1) {
     return false;
   }
   if (num % 2 === 0) {
     return false;
   }
-    for(let i = 2, s = Math.sqrt(num); i <= s; i++)
-        if(num % i === 0) return false; 
-    return num > 1;
+  for (let i = 2, s = Math.sqrt(num); i <= s; i += 1) if (num % i === 0) return false;
+  return num > 1;
 };
 
 // const isPrime = (num) => {
