@@ -1,6 +1,5 @@
 import startGame from '../index.js';
-
-const randomInt = () => Math.round(Math.abs(Math.random() * 100));
+import createRandomNumber from '../utils.js';
 
 const calculateDcg = (a, b) => {
   let newA = a;
@@ -35,11 +34,10 @@ const calculateDcg = (a, b) => {
 const description = 'Find the greatest common divisor of given numbers.';
 
 const brainGcd = () => {
-  const firstOperand = randomInt();
-  const secondOperand = randomInt();
+  const firstOperand = createRandomNumber();
+  const secondOperand = createRandomNumber();
   const expression = `${firstOperand} ${secondOperand}`;
-  let correctAnswer = calculateDcg(firstOperand, secondOperand);
-  correctAnswer = String(correctAnswer);
+  const correctAnswer = calculateDcg(firstOperand, secondOperand).toString();
 
   return [expression, correctAnswer];
 };

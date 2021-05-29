@@ -1,27 +1,30 @@
 import startGame from '../index.js';
+import createRandomNumber from '../utils.js';
 
 const description = 'What is the result of the expression?';
-const brainCalc = () => {
-  const firstOperand = Math.round(Math.random() * 100);
-  const secondOperand = Math.round(Math.random() * 100);
+
+const calculateCorrectAnswer = (firstOperand, secondOperand, randomOperation) => {
+  switch (randomOperation) {
+    case '+':
+      return firstOperand + secondOperand;
+    case '-':
+      return firstOperand - secondOperand;
+    case '*':
+      return firstOperand * secondOperand;
+    default:
+      throw new Error(`Unknown randomOperation : '${randomOperation}'!`);
+  }
+};
+const calculate = () => {
+  const firstOperand = createRandomNumber(0, 100);
+  const secondOperand = createRandomNumber(0, 100);
   const operations = ['+', '-', '*'];
   const randomOperation = operations[Math.floor(Math.random() * operations.length)];
   const expression = `${firstOperand} ${randomOperation} ${secondOperand}`;
-
-  let correctAnswer = parseInt(firstOperand, 10) + randomOperation + parseInt(secondOperand, 10);
-
-  if (randomOperation === '+') {
-    correctAnswer = parseInt(firstOperand, 10) + parseInt(secondOperand, 10);
-  } else if (randomOperation === '-') {
-    correctAnswer = parseInt(firstOperand, 10) - parseInt(secondOperand, 10);
-  } else if (randomOperation === '*') {
-    correctAnswer = parseInt(firstOperand, 10) * parseInt(secondOperand, 10);
-  }
-
-  correctAnswer = String(correctAnswer);
-
+  const correctAnswer = calculateCorrectAnswer(firstOperand, secondOperand,
+    randomOperation).toString();
   return [expression, correctAnswer];
 };
 
-const runGame = () => startGame(description, brainCalc);
+const runGame = () => startGame(description, calculate);
 export default runGame;
